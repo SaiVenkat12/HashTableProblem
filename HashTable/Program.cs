@@ -51,6 +51,8 @@ namespace HashTable
             }
             Console.WriteLine("Displaying Freuency of HashTable");
             hashTable.Display();
+            string s = "avoidable";
+            hashTable.Remove(s);
         }
     }
 }
